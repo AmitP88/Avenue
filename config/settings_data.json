@@ -1,64 +1,167 @@
 {
-  "current": "Default",
+  "current": {
+    "mlvedaACS_roundDecimal": false,
+    "mlvedaACS_positionLeft": "10px",
+    "mlvedaACS_defaultCurrency": "GBP",
+    "mlvedaACS_textColor": "inherit",
+    "mlvedaACS_autoSwitch": false,
+    "mlvedaACS_flagStyle": "circle",
+    "mlvedaACS_isMessageDisplay": true,
+    "mlvedaACS_positionBottom": "10px",
+    "mlvedaACS_messageBackgroundColor": "inherit",
+    "mlvedaACS_messageContent": "<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.",
+    "mlvedaACS_roundDecimalValue": 1,
+    "mlvedaACS_backgroundColor": "inherit",
+    "mlvedaACS_position": "inline",
+    "mlvedaACS_messageColor": "inherit",
+    "mlvedaACS_os2": true,
+    "mlvedaACS_textHoverColor": "inherit",
+    "mlvedaACS_enable": false,
+    "mlvedaACS_positionTop": "10px",
+    "mlvedaACS_supportedCurrencies": "USD GBP EUR CAD AUD INR JPY",
+    "mlvedaACS_isCustomized": true,
+    "sections": {
+      "announcement-bar": {
+        "settings": {
+        },
+        "blocks": {
+          "announcement-bar-0": {
+            "settings": {
+              "color_scheme": "background-1"
+            },
+            "type": "announcement"
+          }
+        },
+        "type": "announcement-bar",
+        "block_order": [
+          "announcement-bar-0"
+        ]
+      },
+      "footer": {
+        "settings": {
+          "enable_country_selector": false,
+          "margin_top": 48,
+          "show_social": true,
+          "enable_language_selector": false
+        },
+        "blocks": {
+          "footer-2": {
+            "settings": {
+              "heading": "Our mission"
+            },
+            "type": "text"
+          },
+          "footer-1": {
+            "settings": {
+              "heading": "Info"
+            },
+            "type": "link_list"
+          },
+          "footer-0": {
+            "settings": {
+            },
+            "type": "link_list"
+          }
+        },
+        "type": "footer",
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2"
+        ]
+      },
+      "main-password-footer": {
+        "settings": {
+        },
+        "type": "main-password-footer"
+      },
+      "header": {
+        "settings": {
+          "logo_width": 90
+        },
+        "type": "header"
+      },
+      "main-password-header": {
+        "settings": {
+        },
+        "type": "main-password-header"
+      }
+    },
+    "mlvedaACS_hideDecimal": false,
+    "mlvedaACS_hoverBackgroundColor": "inherit",
+    "mlvedaACS_positionRight": "10px",
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "mlvedaACS_borderLineColor": "inherit",
+    "mlvedaACS_displayFlag": false,
+    "mlvedaACS_borderLook": false
+  },
   "presets": {
     "Default": {
       "sections": {
         "announcement-bar": {
-          "type": "announcement-bar",
+          "settings": {
+          },
           "blocks": {
             "announcement-bar-0": {
-              "type": "announcement",
               "settings": {
                 "color_scheme": "background-1"
-              }
+              },
+              "type": "announcement"
             }
           },
+          "type": "announcement-bar",
           "block_order": [
             "announcement-bar-0"
           ]
         },
-        "header": {
-          "type": "header",
-          "settings": {
-            "logo_width": 90
-          }
-        },
         "footer": {
-          "type": "footer",
+          "settings": {
+            "enable_country_selector": false,
+            "margin_top": 48,
+            "show_social": true,
+            "enable_language_selector": false
+          },
           "blocks": {
-            "footer-0": {
-              "type": "link_list"
-            },
-            "footer-1": {
-              "type": "link_list",
-              "settings": {
-                "heading": "Info"
-              }
-            },
             "footer-2": {
-              "type": "text",
               "settings": {
                 "heading": "Our mission"
-              }
+              },
+              "type": "text"
+            },
+            "footer-1": {
+              "settings": {
+                "heading": "Info"
+              },
+              "type": "link_list"
+            },
+            "footer-0": {
+              "settings": {
+              },
+              "type": "link_list"
             }
           },
+          "type": "footer",
           "block_order": [
             "footer-0",
             "footer-1",
             "footer-2"
-          ],
-          "settings": {
-            "show_social": true,
-            "enable_country_selector": false,
-            "enable_language_selector": false,
-            "margin_top": 48
-          }
-        },
-        "main-password-header": {
-          "type": "main-password-header"
+          ]
         },
         "main-password-footer": {
+          "settings": {
+          },
           "type": "main-password-footer"
+        },
+        "header": {
+          "settings": {
+            "logo_width": 90
+          },
+          "type": "header"
+        },
+        "main-password-header": {
+          "settings": {
+          },
+          "type": "main-password-header"
         }
       }
     }
