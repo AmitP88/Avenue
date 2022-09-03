@@ -144,14 +144,6 @@
     justify-content: space-around;
     width: 75%;
   }
-
-  .multi-collections > .tab {
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-
 }
 
 @media screen and (min-width: 500px) {
@@ -187,19 +179,6 @@
   .small-footer__content > .small-footer__content-right-container > .small-footer__content-design {
     margin-right: 25px;
   }
-}
-
-@media screen and (min-width: 600px) {
-  .image__banner2-button {
-    justify-content: flex-start;
-    margin-top: -10%;
-    margin-left: 3.5%;
-  }
-
-  .multi-collections {
-    margin-top: 10%;
-  }
-
 }
 
 @media screen and (min-width: 700px) {
