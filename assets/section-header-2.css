@@ -358,13 +358,13 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 900px) {
   .header-2__mobile-menu > .mobile-menu__content {
     width: 60%;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .header-2__mobile-menu {
     display: none;
   }
@@ -372,4 +372,26 @@
   .header-2__desktop-menu {
     display: initial;
   }
+
+  .bottom-header__right-container > nav > .menu > li > .menu__name {
+    font-size: 10px;
+  }
+
+  .bottom-header__right-container > .fg--search > input {
+    float: right;
+    margin-left: 0;
+  }
+
+  .fg--search button {
+    left: 85%;
+  }
+
+  .bottom-header__left-container > a > img {
+    width: 75%;
+  }
+
+  .bottom-header__right-container > nav > .menu > li {
+    padding: 0 10px;
+  }
+
 }

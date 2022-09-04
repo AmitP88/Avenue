@@ -39,6 +39,13 @@
 
   .image__banner2-desktop {
     display: block;
+    margin-top: -95px;
+  }
+
+  .image__banner2-button {
+    justify-content: flex-end;
+    margin-right: 10%;
+    bottom: 5%;
   }
 
 }
