@@ -267,7 +267,7 @@
   }
 
   .bottom-half__banner > img {
-    width: 65%;
+    width: 100%;
   }
 
   .small-footer__content {
@@ -296,7 +296,7 @@
     margin: 0 auto;
   }
 
-  .bottom-half__banner {
+  .big-footer__bottom-half > .bottom-half__banner {
     width: 45%;
     margin: 0;
     margin-right: 30px;

@@ -353,6 +353,20 @@
 
 
 @media screen and (min-width: 1024px) {
+  .multi-collections > .tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .multi-collections > .tab > button {
+    margin: 0 30px;
+  }
+
+  .multi-collections > .tab > button:first-child {
+    margin-left: 0;
+  }
+
   #Popular {
     margin-top: 30px;
     width: 100%;

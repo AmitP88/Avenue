@@ -395,3 +395,9 @@
   }
 
 }
+
+@media screen and (min-width: 1440px) {
+  .bottom-header__right-container > nav > .menu > li > .menu__name {
+    font-size: 13px;
+  }
+}
