@@ -398,6 +398,11 @@
 
 @media screen and (min-width: 1440px) {
   .bottom-header__right-container > nav > .menu > li > .menu__name {
-    font-size: 13px;
+    font-size: 16px;
+    margin: 0 1rem;
+  }
+
+  .bottom-header__right-container > nav > .menu > li > .fa-angle-down {
+    margin-left: 1rem;
   }
 }

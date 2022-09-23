@@ -177,7 +177,7 @@
   .multicolumn2 > .multicolumn2__column > .multicolumn2__column-content > .multicolumn2__column-description {
     text-align: right;
     width: 100%;
-    font-size: inherit;
+    font-size: 13px;
   }
 
   .multicolumn2 > .multicolumn2__column > .multicolumn2__column-content > a > button.multicolumn2__column-button {
